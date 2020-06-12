@@ -14,7 +14,7 @@ COPY . app.py/app
 #hadolint ignore=DL3013
 RUN pip3 freeze > requirements.txt
 RUN pip3 install --upgrade pip &&\
-		pip3 install -r requirements.txt
+	pip3 install -r requirements.txt
 
 
 ## Complete Step 4:
